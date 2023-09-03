@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="SW2_Online_Restaurant_System.BusinessLayer.Admin">
+    <Position X="28" Y="33.25" Width="1.5" />
+    <Members>
+      <Field Name="TE" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>EQBAEAAIAAUAAKIEAAAAAAAgACwAACggAAIAAAAAAAA=</HashCode>
+      <FileName>BusinessLayer\Admin.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="TE" />
+      <Field Name="Em" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SW2_Online_Restaurant_System.BusinessLayer.Customer">
+    <Position X="39.75" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAACAAAAEAAAAAAAAAAAAAAAgAACggAIAAABAAABA=</HashCode>
+      <FileName>BusinessLayer\Customer.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="xorder" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SW2_Online_Restaurant_System.BusinessLayer.Emp">
+    <Position X="32.75" Y="33.25" Width="1.5" />
+    <Members>
+      <Field Name="TE" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>EQAAEAAIAAUAAAIAAAAAAAAgACQAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>BusinessLayer\Emp.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="TE" />
+      <Field Name="Em" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SW2_Online_Restaurant_System.BusinessLayer.Meals">
+    <Position X="24" Y="26.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>EAAAECBAAAQAAAAAAAACAABAAEUAQIEIAgAAABCAAAA=</HashCode>
+      <FileName>BusinessLayer\Meals.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="MealDb" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SW2_Online_Restaurant_System.BusinessLayer.Messages">
+    <Position X="40.75" Y="27.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAGAAQAAAAAAAgIAQAAAAAAAAAIAAAEAQAAAAAAgAAA=</HashCode>
+      <FileName>BusinessLayer\Messages.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="MsDb" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SW2_Online_Restaurant_System.BusinessLayer.Orders">
+    <Position X="36.75" Y="26" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAgCAAEAAAAAAAQgAAAAACEAAAAAAAAAAgA=</HashCode>
+      <FileName>BusinessLayer\Orders.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="ordb" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SW2_Online_Restaurant_System.BusinessLayer.Team">
+    <Position X="30.75" Y="22.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAEAAIAAUAAQAAAAAAAAAgADQIACAAAAAAAAAAAAA=</HashCode>
+      <FileName>BusinessLayer\Team.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="ME" />
+      <Field Name="meal" />
+      <Field Name="OR" />
+      <Field Name="Em" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SW2_Online_Restaurant_System.DatabaseLayer.Manage_MealsDb">
+    <Position X="24" Y="34.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAEAAAAAQAAAQAAAACAQAAAAQAQAAAAAAAABAAAAA=</HashCode>
+      <FileName>DatabaseLayer\Manage_MealsDb.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SW2_Online_Restaurant_System.DatabaseLayer.MessagesDb">
+    <Position X="38" Y="33.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAQAAAAAAQAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>DatabaseLayer\MessagesDb.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SW2_Online_Restaurant_System.DatabaseLayer.OrderDb">
+    <Position X="37.25" Y="21.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAIAAAAAAAAAgAAQAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>DatabaseLayer\OrderDb.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Object">
+    <Position X="24.5" Y="14.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="SW2_Online_Restaurant_System.DatabaseLayer.Manage_EmployeesDB">
+    <Position X="36.25" Y="36.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IABAAAAAAAAgAAAEEAAAAAAAASAAAAAAAAIQABAAEBA=</HashCode>
+      <FileName>DatabaseLayer\Manage_EmployeesDB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SW2_Online_Restaurant_System.BusinessLayer.USER">
+    <Position X="33.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AUAAAAABAAECAAACECQABIAgEQgIAAAACQDQEQABNAA=</HashCode>
+      <FileName>BusinessLayer\USER.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="Em" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SW2_Online_Restaurant_System.Forntend_Layer.WebForm3" Collapsed="true">
+    <Position X="12.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Forntend_Layer\About.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SW2_Online_Restaurant_System.Forntend_Layer.AdminModul" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CCCBAoAAABAwhEAAAAABMAHAAREIAAEABAYgBAJlBgE=</HashCode>
+      <FileName>Forntend_Layer\AdminModul.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SW2_Online_Restaurant_System.Forntend_Layer.All_Customers" Collapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Forntend_Layer\All_Customers.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SW2_Online_Restaurant_System.Forntend_Layer.All_massages" Collapsed="true">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAIAAIA=</HashCode>
+      <FileName>Forntend_Layer\All_massages.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SW2_Online_Restaurant_System.Forntend_Layer.All_orders" Collapsed="true">
+    <Position X="12.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAACAAAAEAAAAAAAIAAIA=</HashCode>
+      <FileName>Forntend_Layer\All_orders.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SW2_Online_Restaurant_System.Forntend_Layer.All_User" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Forntend_Layer\All_Team.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SW2_Online_Restaurant_System.Forntend_Layer.Contact_Us" Collapsed="true">
+    <Position X="9.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAgAEIAEAAAAAAAAAAgAAABAAAAAAIgAiA=</HashCode>
+      <FileName>Forntend_Layer\Contact Us.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SW2_Online_Restaurant_System.Forntend_Layer.Editprofile" Collapsed="true">
+    <Position X="11" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CACBAIAAAAAgBEAAEAABsABAABAIAAAABAYAAAIlBwE=</HashCode>
+      <FileName>Forntend_Layer\Editprofile.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SW2_Online_Restaurant_System.Forntend_Layer.WebForm2" Collapsed="true">
+    <Position X="11" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Forntend_Layer\Home.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SW2_Online_Restaurant_System.Forntend_Layer.LoginPage" Collapsed="true">
+    <Position X="12.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAEAAAAAAAAgAAAAAQAQAAAAAAAIgAgA=</HashCode>
+      <FileName>Forntend_Layer\LoginPage.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SW2_Online_Restaurant_System.Forntend_Layer.Manage_Meals" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAhAAIAwYACgAEAAAEABIAAAABEIAAHAEAAAAAIkRgE=</HashCode>
+      <FileName>Forntend_Layer\Manage_Meals.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SW2_Online_Restaurant_System.Forntend_Layer.menu" Collapsed="true">
+    <Position X="9.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAEEAgAAAAQABACQAAAAAAAAAoAAIA=</HashCode>
+      <FileName>Forntend_Layer\menu.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SW2_Online_Restaurant_System.Forntend_Layer.my_orders" Collapsed="true">
+    <Position X="11" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAACAAAAEAAAAAAAIAAIA=</HashCode>
+      <FileName>Forntend_Layer\my_orders.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SW2_Online_Restaurant_System.Forntend_Layer.WebForm1" Collapsed="true">
+    <Position X="9.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>iACBAAAAAAAgAEAAIBABMABAIAAIAAAABAQAAAIEAwE=</HashCode>
+      <FileName>Forntend_Layer\RegisterationWMP.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SW2_Online_Restaurant_System.Forntend_Layer.Shopping_Cart" Collapsed="true">
+    <Position X="12.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAgAgIEAAAAAAAEAAAAAAAAAQYAAAIAAAA=</HashCode>
+      <FileName>Forntend_Layer\Shopping Cart.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SW2_Online_Restaurant_System.Site1" Collapsed="true">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAgAAAAAABAAAAAAIBJAEAAAAAAAAQAAIAAAA=</HashCode>
+      <FileName>Forntend_Layer\Site1.Master.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

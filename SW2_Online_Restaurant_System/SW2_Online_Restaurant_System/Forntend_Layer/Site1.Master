@@ -1,0 +1,178 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="SW2_Online_Restaurant_System.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Burger</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="footer, address, phone, icons" />
+ 
+    <link href="../StylesCss/bootstrap.min.css" rel="stylesheet" />
+    
+    
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+    <link href="../StylesCss/MasterStyle.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+           
+          
+    <header>
+        <div class="header-area ">
+            <div id="sticky-header" class="main-header-area">
+                <div class="container-fluid p-0">
+                    <div class="row align-items-center no-gutters">
+                        <div class="col-xl-5 col-lg-5">
+                            <div class="main-menu  d-none d-lg-block">
+                                <nav>
+                                    <ul id="navigation">
+                                         <li><a  href="Home.aspx">home</a></li>
+                                         <li><a href="About.aspx">About</a></li>
+                                         <li><a href="Contact Us.aspx">Contact Us</a></li>
+                                        <li><a href="menu.aspx">menu</a></li>
+                                        <li id="my_orders" runat="server"><a href="My_Orders.aspx">My Orders</a></li>
+
+                                        <li id="admin" runat="server">
+                                            <a href="#">AdminPage </a>
+                                             <ul class="submenu">
+                                                <li><a href="AdminModul.aspx">ManageEmployees</a></li>
+                                                <li><a href="All_Team.aspx">All Team</a></li>
+                                                 <li><a href="All_Customers.aspx">All Customers</a></li>
+                                                <li><a href="Manage_Meals.aspx">ManageMeals</a></li>
+					                         	<li><a href="All_orders.aspx">All Orders</a></li>
+                                                <li><a href="All_massages.aspx">All Massages</a></li>
+                                             </ul>
+                                        </li>
+                                        <li id="emp" runat="server">
+                                            <a href="#">EmployeePage </a>
+                                            <ul class="submenu">
+                                                <li><a href="Manage_Meals.aspx">ManageMeals</a></li>
+                                                <li><a href="All_Customers.aspx">All Customers</a></li>
+                                                <li><a href="All_orders.aspx">All Orders</a></li>
+                                                <li><a href="All_massages.aspx">All Massages</a></li>
+                                            </ul>
+                                        </li>
+                                     
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-2">
+                            <div class="logo-img">
+                                <a href="#">
+                                    <img src="../photos/logo.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-xl-5 col-lg-5 d-none d-lg-block">
+                            <div class="book_room">
+                                <div class="socail_links">
+                                    <ul>
+                                        <li id="edit_profile" runat="server">
+                                                <a class="active" href="Editprofile.ASPX">MyProfile</a>
+                                            
+                                        </li>
+                                        <li id="Login" runat="server">
+                                            <a class="active" href="LoginPage.aspx">Login</a>
+                                        </li>
+                                        <li>
+                                             <a class="active" href="RegisterationWMP.aspx">Register</a>
+                                        </li>
+                                        <li id="Logout" runat="server">
+                                            <a class="active" href="LoginPage.aspx">Logout</a>
+                                        </li>
+                                       
+                                    </ul>
+                                </div>
+                                <div class="book_btn d-none d-xl-block">
+                                    <a class="#" href="#">+10 367 453 7382</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="mobile_menu d-block d-lg-none"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+   
+<div class="bradcam_area breadcam_bg overlay">
+        <h3>Burger Resturant</h3>
+    </div>
+</header>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+        <footer class="footer-distributed">
+ 
+		<div class="footer-left">
+ 
+		<h3>Burger<span>Resturant</span></h3>
+ 
+		<p class="footer-links">
+		<a href="#">Home</a>
+	
+		<!--<a href="#">-Blog</a>-->
+	
+		<a href="#">- Pricing</a>
+	
+		<a href="#">- About</a>
+	
+		<!--<a href="#">Faq</a>-->
+	
+		<a href="#">- Contact</a>
+		</p>
+ 
+		<p class="footer-company-name">BurgerResturant &copy; 2019</p>
+		</div>
+ 
+		<div class="footer-center">
+ 
+		<div>
+		<i class="fa fa-map-marker"></i>
+		<p><span>21 Revolution Street</span> Delhi, India</p>
+		</div>
+ 
+		<div>
+		<i class="fa fa-phone"></i>
+		<p>+1 555 123456</p>
+		</div>
+ 
+		<div>
+		<i class="fa fa-envelope"></i>
+		<p><a href="">contact@ResturantEmail.com</a></p>
+		</div>
+ 
+		</div>
+ 
+		<div class="footer-right">
+ 
+		<p class="footer-company-about">
+		<span>About the company</span>
+	the company prepares and serves food and drinks to customers.
+		</p>
+ 
+		<div class="footer-icons">
+ 
+		<a href="#"><i class="fa fa-facebook"></i></a>
+		<a href="#"><i class="fa fa-twitter"></i></a>
+		<a href="#"><i class="fa fa-linkedin"></i></a>
+		<a href="#"><i class="fa fa-github"></i></a>
+ 
+		</div>
+ 
+		</div>
+ 
+		</footer>
+    </form>
+</body>
+</html>

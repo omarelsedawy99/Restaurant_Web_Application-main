@@ -1,0 +1,321 @@
+﻿.inputclass, select, textarea {
+    outline: none;
+    appearance: unset !important;
+    -moz-appearance: unset !important;
+    -webkit-appearance: unset !important;
+    -o-appearance: unset !important;
+    -ms-appearance: unset !important;
+}
+
+    .inputclass::-webkit-outer-spin-button, .inputclass::-webkit-inner-spin-button {
+        appearance: none !important;
+        -moz-appearance: none !important;
+        -webkit-appearance: none !important;
+        -o-appearance: none !important;
+        -ms-appearance: none !important;
+        margin: 0;
+    }
+
+    .inputclass:focus, select:focus, textarea:focus {
+        outline: none;
+        box-shadow: none !important;
+        -moz-box-shadow: none !important;
+        -webkit-box-shadow: none !important;
+        -o-box-shadow: none !important;
+        -ms-box-shadow: none !important;
+    }
+
+
+.image {
+    /*max-width: 100%;*/
+    height: 878px;
+}
+
+
+.Header {
+    line-height: 1.8;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color: #fff;
+    font-family: Poppins;
+    font-size: 21px;
+    text-align: center;
+    margin-bottom: 28px;
+}
+
+.clear {
+    clear: both;
+}
+
+.main {
+    padding: 115px 0;
+    position: relative;
+    font-size: 14px;
+    line-height: 1.8;
+    color: #fff;
+    background: #ffd9b0;
+    font-weight: 400;
+    font-family: Poppins;
+    margin: 0;
+}
+
+@media screen and (max-width: 1200px) {
+    .container {
+        width: calc( 100% - 30px);
+        max-width: 100%;
+        background: transparent;
+    }
+}
+
+.container {
+    width: 1150px;
+    background: #fff;
+    margin: 0 auto;
+    box-shadow: 0px 10px 9.9px 0.1px rgba(0, 0, 0, 0.05);
+    -moz-box-shadow: 0px 10px 9.9px 0.1px rgba(0, 0, 0, 0.05);
+    -webkit-box-shadow: 0px 10px 9.9px 0.1px rgba(0, 0, 0, 0.05);
+    -o-box-shadow: 0px 10px 9.9px 0.1px rgba(0, 0, 0, 0.05);
+    -ms-box-shadow: 0px 10px 9.9px 0.1px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -o-border-radius: 10px;
+    -ms-border-radius: 10px;
+}
+
+.booking-content {
+    flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    -o-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+}
+
+.booking-image {
+    /*width: 58.33%;*/
+    margin-bottom: -8px;
+}
+
+.booking-img {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 686px;
+    height: 910px;
+}
+
+.booking-form {
+    /*width: 41.67%;*/
+    background: #111;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.form-radio {
+    margin-bottom: 65px;
+    padding-top: 20px;
+}
+
+    .form-radio .inputclass {
+        width: 0;
+        height: 0;
+        position: absolute;
+        left: -9999px;
+    }
+
+    .form-radio label {
+        padding-top: 4px;
+    }
+
+    .form-radio .inputclass + label {
+        margin: 0 3px;
+        box-sizing: border-box;
+        position: relative;
+        display: inline-block;
+        border: solid 2px #ebebeb;
+        background-color: #FFF;
+        font-size: 14px;
+        font-weight: 600;
+        color: #888;
+        text-align: center;
+        transition: border-color .15s ease-out, color .25s ease-out, background-color .15s ease-out, box-shadow .15s ease-out;
+        width: 36px;
+        height: 36px;
+        border-radius: 50%;
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -o-border-radius: 50%;
+        -ms-border-radius: 50%;
+    }
+
+    .form-radio .inputclass:checked + label {
+        background-color: #111;
+        color: #FFF;
+        border-color: #111;
+        z-index: 1;
+    }
+
+    .form-radio .inputclass:focus + label {
+        outline: none;
+    }
+
+    .form-radio .inputclass:hover {
+        background-color: #111;
+        color: #FFF;
+        border-color: #111;
+    }
+
+.radio-item-list {
+    margin: 0 -3px;
+}
+
+
+
+.form-group {
+    margin-bottom: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    position: relative;
+}
+
+.form-input {
+    padding-top: 21px;
+}
+
+.form-label {
+    position: absolute;
+    transition: 0.25s ease;
+    -moz-transition: 0.25s ease;
+    -webkit-transition: 0.25s ease;
+    -o-transition: 0.25s ease;
+    -ms-transition: 0.25s ease;
+    color: #bebebe;
+    left: 4px;
+    top: 30px;
+    right: 212px;
+}
+
+.inputclass {
+    transition: 0.3s ease;
+    -moz-transition: 0.3s ease;
+    -webkit-transition: 0.3s ease;
+    -o-transition: 0.3s ease;
+    -ms-transition: 0.3s ease;
+    padding-top: 10px;
+    -webkit-appearance: none;
+}
+
+    .inputclass:focus + .form-label, .inputclass {
+        transition: 0.3s ease;
+        -moz-transition: 0.3s ease;
+        -webkit-transition: 0.3s ease;
+        -o-transition: 0.3s ease;
+        -ms-transition: 0.3s ease;
+        padding-top: 10px;
+        -webkit-appearance: none;
+    }
+
+        .inputclass:focus + .form-label, .inputclass:valid + .form-label {
+            top: 1px;
+            font-size: 11px;
+            color: #edb77d;
+        }
+
+:valid + .form-label {
+    top: 1px;
+    font-size: 11px;
+    color: #edb77d;
+}
+
+.inputclass, select {
+    box-sizing: border-box;
+    width: 100%;
+    display: block;
+    border: none;
+    font-family: Poppins;
+    color: #fff;
+    background: transparent;
+    border-bottom: 1px solid #999;
+    padding: 4px 0;
+}
+
+    .inputclass:focus, select:focus {
+        border-bottom: 1px solid #edb77d;
+    }
+
+    .inputclass:-webkit-autofill {
+        -webkit-box-shadow: 0 0 0 30px transparent inset;
+    }
+
+    .inputclass::-webkit-input-placeholder {
+        color: #bebebe;
+    }
+
+    .inputclass::-moz-placeholder {
+        color: #bebebe;
+    }
+
+    .inputclass:-ms-input-placeholder {
+        color: #bebebe;
+    }
+
+    .inputclass:-moz-placeholder {
+        color: #bebebe;
+    }
+
+.submit {
+    width: auto;
+    background: #edb77d;
+    color: #fff;
+    padding: 15px 43px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+    .submit:hover {
+        background: #e79e50;
+    }
+
+@media screen and (max-width: 1200px) {
+    .container {
+        width: calc( 100% - 30px);
+        max-width: 100%;
+        background: transparent;
+    }
+
+    .booking-content {
+        flex-direction: column;
+        -moz-flex-direction: column;
+        -webkit-flex-direction: column;
+        -o-flex-direction: column;
+        -ms-flex-direction: column;
+    }
+
+    .booking-image, .booking-form {
+        width: 100%;
+    }
+
+    .booking-image {
+        order: 2;
+        text-align: center;
+    }
+
+    .booking-form {
+        order: 1;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+
+    .booking-img {
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+        width: 100%;
+    }
+}
